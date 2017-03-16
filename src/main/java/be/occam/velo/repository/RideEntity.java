@@ -21,6 +21,8 @@ public class RideEntity {
 	protected String uuid;
 	protected String title;
 	protected Date moment;
+	protected double startLatitude;
+	protected double startLongitude;
 	
 	public String getUuid() {
 		return uuid;
@@ -52,6 +54,22 @@ public class RideEntity {
 
 	public void setKey(Key key) {
 		this.key = key;
+	}
+
+	public double getStartLatitude() {
+		return startLatitude;
+	}
+
+	public void setStartLatitude(double startLatitude) {
+		this.startLatitude = startLatitude;
+	}
+
+	public double getStartLongitude() {
+		return startLongitude;
+	}
+
+	public void setStartLongitude(double startLongitude) {
+		this.startLongitude = startLongitude;
 	}
 	
 }
