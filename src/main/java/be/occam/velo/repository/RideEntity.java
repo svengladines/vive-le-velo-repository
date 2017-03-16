@@ -45,5 +45,13 @@ public class RideEntity {
 	public void setMoment(Date moment) {
 		this.moment = moment;
 	}
+
+	public Key getKey() {
+		return key;
+	}
+
+	public void setKey(Key key) {
+		this.key = key;
+	}
 	
 }
